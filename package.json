@@ -4,11 +4,8 @@
   "description": "Schoolwork for cse341",
   "main": "index.js",
   "scripts": {
-    "test": "start"
+    "start": "node server.js"
   },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "express": "^4.21.0"
-  }
+  "author": "Carter Raymond",
+  "license": "ISC"
 }
