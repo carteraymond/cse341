@@ -1,0 +1,14 @@
+{
+  "name": "cse341",
+  "version": "1.0.0",
+  "description": "Schoolwork for cse341",
+  "main": "index.js",
+  "scripts": {
+    "test": "start"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.0"
+  }
+}
