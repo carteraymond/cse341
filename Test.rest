@@ -10,3 +10,23 @@ GET https://cse341-schoolassignment.onrender.com/contacts/664a7d19b30af4fb0cdd85
 GET http://localhost:8080/contacts HTTP/1.1
 ###
 GET http://localhost:8080/contacts/664a7d19b30af4fb0cdd85a5 HTTP/1.1
+
+###
+
+POST http://localhost:8080/contacts HTTP/1.1 
+content-type: application/json
+{
+    "firstName":"Ashley",
+    "lastName":"Weaver",
+    "email":"aWeaver@test.com",
+    "favoriteColor":"Brown",
+    "birthday":"06/19/2000"
+}
+
+### Create contact 
+POST http://localhost:8080/contacts HTTP/1.1
+content-type: application/json
+
+{
+"firstName":"Ashley", "lastName":"Weaver", "email":"aWeaver@test.com", "favoriteColor":"Brown", "birthday":"06/19/2000"
+}
