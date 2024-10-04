@@ -3,6 +3,22 @@
 GET https://cse341-schoolassignment.onrender.com/contacts HTTP/1.1
 ###
 GET https://cse341-schoolassignment.onrender.com/contacts/664a7d19b30af4fb0cdd85a5 HTTP/1.1
+### Create Contact
+POST https://cse341-schoolassignment.onrender.com/contacts HTTP/1.1
+content-type: application/json
+
+{
+"firstName":"Sebas", "lastName":"Tian", "email":"Sebastian@gmail.com", "favoriteColor":"Black", "birthday":"01/09/2025"
+}
+### PUT contact 
+PUT https://cse341-schoolassignment.onrender.com/contacts/664a7d19b30af4fb0cdd85a5 HTTP/1.1 
+content-type: application/json
+
+{
+"firstName":"Changed", "lastName":"Raymond", "email":"this_changed@gmail.com", "favoriteColor":"NOT Green", "birthday":"01/03/04"
+}
+### DELETE contact 
+DELETE  https://cse341-schoolassignment.onrender.com/contacts[id] HTTP/1.1
 
 
 //LocalHost
@@ -11,22 +27,20 @@ GET http://localhost:8080/contacts HTTP/1.1
 ###
 GET http://localhost:8080/contacts/664a7d19b30af4fb0cdd85a5 HTTP/1.1
 
-###
-
-POST http://localhost:8080/contacts HTTP/1.1 
-content-type: application/json
-{
-    "firstName":"Ashley",
-    "lastName":"Weaver",
-    "email":"aWeaver@test.com",
-    "favoriteColor":"Brown",
-    "birthday":"06/19/2000"
-}
-
-### Create contact 
+### Create Contact
 POST http://localhost:8080/contacts HTTP/1.1
 content-type: application/json
 
 {
-"firstName":"Ashley", "lastName":"Weaver", "email":"aWeaver@test.com", "favoriteColor":"Brown", "birthday":"06/19/2000"
+"firstName":"Sebas", "lastName":"Tian", "email":"Sebastian@gmail.com", "favoriteColor":"Black", "birthday":"01/09/2025"
 }
+
+### PUT contact 
+PUT http://localhost:8080/contacts/664a7d19b30af4fb0cdd85a5 HTTP/1.1 
+content-type: application/json
+
+{
+"firstName":"Changed", "lastName":"Raymond", "email":"this_changed@gmail.com", "favoriteColor":"NOT Green", "birthday":"01/03/04"
+}
+### DELETE contact 
+DELETE http://localhost:8080/contacts/67007e49ea4a96db7a5383e5 HTTP/1.1
