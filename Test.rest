@@ -43,4 +43,4 @@ content-type: application/json
 "firstName":"Changed", "lastName":"Raymond", "email":"this_changed@gmail.com", "favoriteColor":"NOT Green", "birthday":"01/03/04"
 }
 ### DELETE contact 
-DELETE http://localhost:8080/contacts/67007e49ea4a96db7a5383e5 HTTP/1.1
+DELETE http://localhost:8080/contacts/6700819d85046aa30f348178 HTTP/1.1
