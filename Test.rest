@@ -18,7 +18,7 @@ content-type: application/json
 "firstName":"Changed", "lastName":"Raymond", "email":"this_changed@gmail.com", "favoriteColor":"NOT Green", "birthday":"01/03/04"
 }
 ### DELETE contact 
-DELETE  https://cse341-schoolassignment.onrender.com/contacts[id] HTTP/1.1
+DELETE  https://cse341-schoolassignment.onrender.com/contacts/67008256a254782b454a4f32 HTTP/1.1
 
 
 //LocalHost
