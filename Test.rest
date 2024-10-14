@@ -18,7 +18,7 @@ content-type: application/json
 "firstName":"Changed", "lastName":"Raymond", "email":"this_changed@gmail.com", "favoriteColor":"NOT Green", "birthday":"01/03/04"
 }
 ### DELETE contact 
-DELETE  https://cse341-schoolassignment.onrender.com/contacts/67008256a254782b454a4f32 HTTP/1.1
+DELETE  https://cse341-schoolassignment.onrender.com/contacts/6701ffeeb0154f4a1e1ed380 HTTP/1.1
 
 
 //LocalHost
@@ -43,4 +43,4 @@ content-type: application/json
 "firstName":"Changed", "lastName":"Raymond", "email":"this_changed@gmail.com", "favoriteColor":"NOT Green", "birthday":"01/03/04"
 }
 ### DELETE contact 
-DELETE http://localhost:8080/contacts/6700819d85046aa30f348178 HTTP/1.1
+DELETE http://localhost:8080/contacts/6702001ef5bb1ed43c8e462e HTTP/1.1
