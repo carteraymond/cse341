@@ -10,6 +10,7 @@ app
   .use(bodyParser.json())
   .use((req, res, next) => {
     res.setHeader('Access-Control-Allow-Origin', '*');
+    res.header("Access-Control-Allow-Headers", "x-requested-with, content-type");
     next();
   })
   .use('/', require('./Route'));

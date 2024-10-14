@@ -5,7 +5,9 @@ const doc = {
     title: 'My API',
     description: 'Description'
   },
-  host: 'localhost:3000'
+  host: 'cse341-schoolassignment.onrender.com',
+  basePath: "/",
+  schemes: ["https"]
 };
 
 const outputFile = './swagger.json';
